@@ -9,7 +9,7 @@
 You can install this skill and the CLI globally with a single command:
 
 ```bash
-git clone https://github.com/bartasurba/looksmith-ops.git
+git clone https://github.com/barturba/looksmith-ops.git
 cd looksmith-ops
 ./install.sh
 ```
@@ -17,7 +17,7 @@ cd looksmith-ops
 Or run the installer directly using curl:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/bartasurba/looksmith-ops/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/barturba/looksmith-ops/main/install.sh | bash
 ```
 
 ---
