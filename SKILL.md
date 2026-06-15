@@ -15,8 +15,11 @@ Use the globally installed `looksmith` CLI to interact with the API:
 # List style packages (photo sets)
 looksmith packs
 
-# Trigger a shoot using a local selfie file
+# Trigger a style pack shoot using a local selfie file
 looksmith shoot --set <set_slug> --selfie <path_to_file>
+
+# Trigger a custom single shot using specific background and outfit option IDs
+looksmith shoot --background <bg_id> --outfit <outfit_id> [--aspect-ratio <ratio>] --selfie <path_to_file>
 
 # Trigger a shoot using a remote selfie URL
 looksmith shoot --set <set_slug> --selfie-url <url>
