@@ -34,6 +34,7 @@ curl -sSL https://raw.githubusercontent.com/barturba/looksmith-ops/main/install.
 Once installed, your AI developer agents will be equipped with:
 * `looksmith packs` - query style package names and slugs.
 * `looksmith shoot --set <slug> --selfie <path> --poll` - generate headshots and wait for them to finish.
+* `looksmith shoot --background <bg_id> --outfit <outfit_id> [--aspect-ratio <ratio>] --selfie <path> --poll` - generate custom single shots.
 * `looksmith status <shoot_id>` - fetch completed photo URLs.
 
 ---
